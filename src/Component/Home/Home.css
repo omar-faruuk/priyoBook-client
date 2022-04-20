@@ -1,0 +1,17 @@
+.home{
+   text-align: center;
+   
+     
+}
+.shop{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+
+    margin: 20px 10px;
+   }
+   @media only screen and (max-width: 600px) {
+      .shop{
+         grid-template-columns: repeat(1, 100%);
+      }
+   } 

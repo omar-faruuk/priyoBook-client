@@ -1,0 +1,30 @@
+body, html{
+    overflow-x: hidden;
+}
+table img{
+    width: 20px;
+    cursor: pointer;
+
+}
+.manage-book{
+    width: 84%;
+}
+.manage-book h3{
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+@media screen and (max-width:600px){
+    .manage-book h3{
+        margin: 5px;
+        font-size: 10px;
+    }
+    #customers td, #customers th{
+      padding: 8px;
+      font-size: 9px;
+      font-weight: bold;
+    }
+    .tableDiv{
+        overflow-x: auto;
+    }
+  }

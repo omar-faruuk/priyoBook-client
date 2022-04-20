@@ -1,0 +1,45 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 20px;
+    
+  }
+  #customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  #customers tr:hover {
+    
+}
+.checkout-btn button{
+    background-color: rgb(229, 151, 50);
+    color: black;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    
+   
+}
+.checkout-btn{
+  position: absolute;
+  right: 0px;
+  margin: 10px;
+}
+.checkout-btn:hover button{
+    transform: translateY(2px);
+}
+@media screen and (max-width:600px){
+  #customers td, #customers th{
+    padding: 12px;
+  }
+}

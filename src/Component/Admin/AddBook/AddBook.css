@@ -1,0 +1,55 @@
+ .add-book{
+ width: 83%;
+}
+.add-book h3{
+    text-align: left;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+form input{
+    width: 42%;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+form .loading{
+    display: inline;
+    color: red;
+}
+form input[type=file]{
+    border: none;
+    background-image: ('../../../product-images/cloud-upload-outline 1.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 12px 0;
+    width: 17%;
+}
+form input[type="submit"]{
+    background-color: rgb(247, 105, 48);
+    color: #333;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(224, 122, 81);
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:600px){
+    h3{
+        margin: 6px;
+        font-size: 12px;
+    }
+    form input{
+        width: 85%;
+        margin: 8px;
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid lightgray;
+    }  
+}

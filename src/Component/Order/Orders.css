@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+table img{
+  margin: 10px;
+  border: 1px solid lightgray;
+  
+}
+@media screen and (max-width:600px){
+    #customers td, #customers th{
+      padding: 12px;
+      font-size: 9px;
+      font-weight: bold;
+    }
+    table img{
+      width: 25px;
+    }
+    .tableDiv{
+        overflow-x: auto;
+    }
+  }

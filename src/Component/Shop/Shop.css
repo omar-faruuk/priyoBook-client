@@ -1,0 +1,43 @@
+ .shop{
+ 
+}
+.card{
+    border: 1px solid lightgray;
+    background-color: rgb(242, 237, 237);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    
+}
+.card img{
+ width: 50%;
+}
+.card span {
+    color: blue;
+}
+.card a{
+    text-decoration: none;
+}
+.card .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card button{
+    height:25px;
+    background-color: lightsalmon;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.card button:hover{
+    background-color: lightpink;
+    color: black;
+    cursor: pointer;
+} 
